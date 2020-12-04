@@ -16,7 +16,7 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-  <!-- Surecritic -->
+  <!-- Sure critic -->
   <script src="https://surecritic.com/businesses/27485/plugins/review_plugins/561.js"></script>
 
   <!-- Bootstrap Scripts -->
@@ -33,7 +33,7 @@
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <a class="navbar-brand" href="">Rob Bakers Garage</a>
+        <a class="navbar-brand">Rob Bakers Garage</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,9 +42,6 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#services">Services</a>
             </li>
@@ -60,66 +57,47 @@
       </section>
 
       <!-- Title -->
-    <section class="white-section" id="contact">
-      <div class="row">
-
-        <div class="col-lg-6">
-          <h1 class="big-heading">Service you can Trust!</h1>
-        </div>
-
-        <div class="col-lg-6">
-          <img class="title-image" src="images/RbgLogoBlack.png" alt="RobBakersGarage">
-        </div>
-
-      </div>
-
+    <section class="white-section" id="title">
+      <img src="images/bakersgarage.jpg" class="img-fluid" alt="Responsive image">
     </section>
-<!-- about-->
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/shopcar.jpg" class="d-block w-100 title-image" alt="shop image">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Located in Millbrae California</h5>
-        <p>Rob Baker's Garage is a locally Owned and operated auto repiar shop
-        that has been serving Millbrae, CA, since 1972.</p>
+<!-- Services -->
+
+<section class="white-section" id="services">
+
+  <h2 class="service-text">Located in Millbrae California</h2>
+  <p>Rob Baker's Garage is a locally Owned and operated auto repiar shop
+  that has been serving Millbrae, CA, since 1972.</p>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="service-image" src="images/carengine.jpg" alt="dreamjob-article-img">
+        <title>Service</title>
+          <h2>Service options</h2>
+          <p>Auto diagnostics. Brake Repairs. Tune ups. Auto AC and head repair.</p>
+
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/carengine.jpg" class="d-block w-100 title-image" alt="engine image">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Our service options include</h5>
-        <p>Auto diagnostics. Brake Repairs. Tune ups. Auto AC and head repair.</p>
+      <div class="col-lg-4">
+        <img class="service-image" src="images/RobBakersGarageLogo.jpg" alt="Make-A-Difference-img">
+        <title>Auto Diagnostics</title>
+          <h2>Tune ups and oil changes</h2>
+          <p>Auto diagnostics. Brake Repairs. Tune ups. Auto AC and head repair.</p>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/tools.jpg" class="d-block w-100 title-image" alt="tools image">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Tune ups and oil changes</h5>
-        <p>Keep your vehicle healthy with our thorough, reliable tune up service.
-           Call now to make your appointment.</p>
+      <div class="col-lg-4">
+        <img class="service-image" src="images/tools.jpg" alt="Arts-img">
+        <title>Auto repair</title>
+          <h2>Auto Repair</h2>
+          <p>We’ll diagnose and fix the problems with your vehicle.</p>
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+</section>
 
 <!-- Reviews -->
-<section class="white-section" id="Reviews">
+<section class="white-section" id="reviews">
 
-<h2 class="section-heading">From our customers</h2>
+<h2 class="section-heading">From our customers,</h2>
 
 <div id="surecritic-reviews"></div>
 </section>
@@ -136,10 +114,10 @@
             <textarea name="Name" class="form-control" id="clientName" rows="1" placeholder="Name"></textarea>
           </div>
           <div class="form-group">
-            <textarea name="Email" class="form-control" id="clientEmail" rows="1" placeholder="Phone"></textarea>
+            <textarea name="Email" class="form-control" id="clientEmail" rows="1" placeholder="Email"></textarea>
           </div>
           <div class="form-group">
-            <textarea name="Phone" class="form-control" id="clientPhone" rows="1" placeholder="email"></textarea>
+            <textarea name="Phone" class="form-control" id="clientPhone" rows="1" placeholder="Phone"></textarea>
           </div>
           <div class="form-group">
             <textarea name="Message" class="form-control" id="clientMessage" rows="8" cols="80" placeholder="Message"></textarea>
@@ -158,8 +136,6 @@
         <a href="mailto:Service@RobBakersGarage.com"> <i class="social-icon fa fa-envelope"  style="font-size:48px;color:black"></i>
       </div>
       <p>© Copyright 2020 Rob Bakers Garage</p>
-
     </footer>
 </body>
-
 </html>

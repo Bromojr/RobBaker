@@ -10,15 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: #222831;
 }
 
 /* Heading */
-
-.title-image {
-max-width: 60%;
-height: auto;
-}
 
 .big-heading {
   font-family: "Montserrat";
@@ -51,7 +46,7 @@ height: auto;
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 .5rem;
+  padding: 0 0 1px;
 }
 
 .navbar-brand {
@@ -69,11 +64,31 @@ height: auto;
   font-size: 1.2rem;
 }
 
+/* Service Section */
+.service-text {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.service-image {
+max-width: 80%;
+height: auto;
+border-radius: 100%;
+}
+
 /* Footer Section */
 
 .social-icon {
   margin: 1px 20px;
 }
+
+.footer {
+  margin: 0;
+}
+
+
 
 @media (max-width: 1028px) {
 
